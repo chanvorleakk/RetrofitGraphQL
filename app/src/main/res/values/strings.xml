@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RetrofitGraphQL</string>
+    <string name="get_user">Get user</string>
+</resources>
