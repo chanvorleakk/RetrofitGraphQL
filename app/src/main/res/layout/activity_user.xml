@@ -7,7 +7,7 @@
     android:background="#F5F5F5"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".ui.user.UserProfileActivity">
+    tools:context=".presentation.ui.user.UserProfileActivity">
 
 
 <!--    <TextView-->

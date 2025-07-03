@@ -1,11 +1,11 @@
-package com.example.retrofitgraphql.api
+package com.example.retrofitgraphql.data.remote
 
 
 import com.example.retrofitgraphql.base.GraphQLQuery
-import com.example.retrofitgraphql.model.LoginGraphQlResponse
-import com.example.retrofitgraphql.model.LogoutGraphQlResponse
-import com.example.retrofitgraphql.model.TagGraphQLResponse
-import com.example.retrofitgraphql.model.UserGraphQLResponse
+import com.example.retrofitgraphql.domain.model.LoginGraphQlResponse
+import com.example.retrofitgraphql.domain.model.LogoutGraphQlResponse
+import com.example.retrofitgraphql.domain.model.TagGraphQLResponse
+import com.example.retrofitgraphql.domain.model.UserGraphQLResponse
 
 import retrofit2.Call
 import retrofit2.http.Body

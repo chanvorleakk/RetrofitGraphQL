@@ -1,4 +1,4 @@
-package com.example.retrofitgraphql.ui.tagProduct
+package com.example.retrofitgraphql.presentation.ui.tagProduct
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

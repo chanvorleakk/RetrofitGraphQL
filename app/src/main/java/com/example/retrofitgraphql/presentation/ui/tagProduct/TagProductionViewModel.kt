@@ -1,11 +1,13 @@
-package com.example.retrofitgraphql.ui.tagProduct
+package com.example.retrofitgraphql.presentation.ui.tagProduct
 
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.retrofitgraphql.api.RetrofitClient
+import com.example.retrofitgraphql.data.api.RetrofitClient
 import com.example.retrofitgraphql.base.GraphQLQuery
+import com.example.retrofitgraphql.domain.model.TagGraphQLResponse
+import com.example.retrofitgraphql.domain.model.TagProduction
 import com.example.retrofitgraphql.model.*
 import retrofit2.Call
 import retrofit2.Callback

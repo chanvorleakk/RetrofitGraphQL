@@ -1,8 +1,8 @@
-package com.example.retrofitgraphql.model
+package com.example.retrofitgraphql.domain.model
 
 
 data class TagGraphQLResponse(
-    val data:TagProductionResponse
+    val data: TagProductionResponse
 )
 
 data class TagProductionResponse(

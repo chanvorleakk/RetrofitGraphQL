@@ -1,4 +1,4 @@
-package com.example.retrofitgraphql.ui.login
+package com.example.retrofitgraphql.presentation.ui.login
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,9 +7,9 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.example.retrofitgraphql.databinding.ActivityLoginBinding
-import com.example.retrofitgraphql.model.LoginRequestModel
+import com.example.retrofitgraphql.domain.model.LoginRequestModel
 import com.example.retrofitgraphql.preference.UserSession
-import com.example.retrofitgraphql.ui.main.MainActivity
+import com.example.retrofitgraphql.presentation.ui.main.MainActivity
 
 class LoginActivity : AppCompatActivity() {
 

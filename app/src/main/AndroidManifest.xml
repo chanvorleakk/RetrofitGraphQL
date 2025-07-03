@@ -18,16 +18,16 @@
             android:name=".ui.main.LogoutActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.main.MainActivity"
+            android:name=".presentation.ui.main.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.tagProduct.TagProductionActivity"
+            android:name=".presentation.ui.tagProduct.TagProductionActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.user.UserProfileActivity"
+            android:name=".presentation.ui.user.UserProfileActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.login.LoginActivity"
+            android:name=".presentation.ui.login.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,15 +1,15 @@
-package com.example.retrofitgraphql.ui.login
+package com.example.retrofitgraphql.presentation.ui.login
 
 import android.content.Context
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.retrofitgraphql.api.RetrofitClient
+import com.example.retrofitgraphql.data.api.RetrofitClient
 import com.example.retrofitgraphql.base.GraphQLQuery
-import com.example.retrofitgraphql.model.LoginGraphQlResponse
-import com.example.retrofitgraphql.model.LoginRequestModel
-import com.example.retrofitgraphql.model.LoginResponse
+import com.example.retrofitgraphql.domain.model.LoginGraphQlResponse
+import com.example.retrofitgraphql.domain.model.LoginRequestModel
+import com.example.retrofitgraphql.domain.model.LoginResponse
 import com.example.retrofitgraphql.preference.UserSession
 import retrofit2.Callback
 import retrofit2.Response

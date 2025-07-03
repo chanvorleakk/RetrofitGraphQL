@@ -1,6 +1,7 @@
-package com.example.retrofitgraphql.api
+package com.example.retrofitgraphql.data.api
 
 import android.content.Context
+import com.example.retrofitgraphql.data.remote.GraphQLApiService
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

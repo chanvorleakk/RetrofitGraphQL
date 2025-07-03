@@ -1,4 +1,4 @@
-package com.example.retrofitgraphql.ui.main
+package com.example.retrofitgraphql.presentation.ui.main
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,9 +6,9 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.example.retrofitgraphql.databinding.ActivityMainBinding
-import com.example.retrofitgraphql.ui.login.LoginActivity
-import com.example.retrofitgraphql.ui.tagProduct.TagProductionActivity
-import com.example.retrofitgraphql.ui.user.UserProfileActivity
+import com.example.retrofitgraphql.presentation.ui.login.LoginActivity
+import com.example.retrofitgraphql.presentation.ui.tagProduct.TagProductionActivity
+import com.example.retrofitgraphql.presentation.ui.user.UserProfileActivity
 
 class MainActivity : AppCompatActivity() {
 

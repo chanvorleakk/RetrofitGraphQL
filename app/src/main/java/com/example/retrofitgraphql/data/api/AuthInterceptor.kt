@@ -1,4 +1,4 @@
-package com.example.retrofitgraphql.api
+package com.example.retrofitgraphql.data.api
 
 import android.content.Context
 import com.example.retrofitgraphql.preference.UserSession

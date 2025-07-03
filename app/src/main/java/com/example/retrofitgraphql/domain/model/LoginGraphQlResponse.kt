@@ -1,4 +1,4 @@
-package com.example.retrofitgraphql.model
+package com.example.retrofitgraphql.domain.model
 
 
 data class LoginGraphQlResponse(
